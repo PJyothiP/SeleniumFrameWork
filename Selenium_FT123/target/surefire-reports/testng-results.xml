@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-12T01:58:30Z" name="Suite" finished-at="2022-04-12T01:59:05Z" duration-ms="34883">
+    <groups>
+      <group name="Regression">
+        <method signature="MainTestClass.AmazonSignIn(java.lang.String, java.lang.String)[pri:0, instance:MainLibrary.MainTestClass@f14a7d4]" name="AmazonSignIn" class="MainLibrary.MainTestClass"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2022-04-12T01:58:30Z" name="Test" finished-at="2022-04-12T01:59:05Z" duration-ms="34883">
+      <class name="MainLibrary.MainTestClass">
+        <test-method is-config="true" signature="readData()[pri:0, instance:MainLibrary.MainTestClass@f14a7d4]" started-at="2022-04-12T07:28:30Z" name="readData" finished-at="2022-04-12T07:28:30Z" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method is-config="true" signature="driverSetup(java.lang.String)[pri:0, instance:MainLibrary.MainTestClass@f14a7d4]" started-at="2022-04-12T07:28:30Z" name="driverSetup" finished-at="2022-04-12T07:28:48Z" duration-ms="17737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="AmazonSignIn(java.lang.String, java.lang.String)[pri:0, instance:MainLibrary.MainTestClass@f14a7d4]" started-at="2022-04-12T07:28:48Z" name="AmazonSignIn" data-provider="testData" finished-at="2022-04-12T07:29:04Z" duration-ms="16205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9790792668]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amazon@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonSignIn -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:MainLibrary.MainTestClass@f14a7d4]" started-at="2022-04-12T07:29:04Z" name="closeBrowser" finished-at="2022-04-12T07:29:05Z" duration-ms="461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AmazonSignIn status=SUCCESS method=MainTestClass.AmazonSignIn(java.lang.String, java.lang.String)[pri:0, instance:MainLibrary.MainTestClass@f14a7d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- MainLibrary.MainTestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

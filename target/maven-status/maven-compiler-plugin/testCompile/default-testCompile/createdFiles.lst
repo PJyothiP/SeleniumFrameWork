@@ -1,0 +1,8 @@
+PageRepository\SearchPage.class
+MainLibrary\MainTestClass.class
+Utilities\BrowserFactory.class
+Utilities\LoadConfig.class
+PageRepository\AmazonHomePage.class
+Utilities\BaseClass.class
+Utilities\ScreenshotCapture.class
+Utilities\ExcelOperations.class
